@@ -5,6 +5,12 @@ VisualStudioVersion = 17.9.34714.143
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SistemaInventarioV8", "SistemaInventarioV8\SistemaInventarioV8.csproj", "{F21F6D8A-75B8-4EE0-B27D-31D6346F7B2A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SistemaInventarioV8.AccesoDatos", "SistemaInventarioV8.AccesoDatos\SistemaInventarioV8.AccesoDatos.csproj", "{8A5AED15-609D-4808-9B00-76105B91B70D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SistemaInventarioV8.Modelos", "SistenaInventarioV8.Modelos\SistemaInventarioV8.Modelos.csproj", "{DEE99B02-81FA-40A5-962F-2AD83DC1C3E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SistemaInventarioV8.Utilidades", "SistemaInventarioV8.Utilidades\SistemaInventarioV8.Utilidades.csproj", "{1FBC6015-4EE5-4C20-BCCE-5094B97C3EF5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +21,18 @@ Global
 		{F21F6D8A-75B8-4EE0-B27D-31D6346F7B2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F21F6D8A-75B8-4EE0-B27D-31D6346F7B2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F21F6D8A-75B8-4EE0-B27D-31D6346F7B2A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A5AED15-609D-4808-9B00-76105B91B70D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A5AED15-609D-4808-9B00-76105B91B70D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A5AED15-609D-4808-9B00-76105B91B70D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A5AED15-609D-4808-9B00-76105B91B70D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DEE99B02-81FA-40A5-962F-2AD83DC1C3E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEE99B02-81FA-40A5-962F-2AD83DC1C3E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEE99B02-81FA-40A5-962F-2AD83DC1C3E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEE99B02-81FA-40A5-962F-2AD83DC1C3E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FBC6015-4EE5-4C20-BCCE-5094B97C3EF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FBC6015-4EE5-4C20-BCCE-5094B97C3EF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FBC6015-4EE5-4C20-BCCE-5094B97C3EF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FBC6015-4EE5-4C20-BCCE-5094B97C3EF5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
